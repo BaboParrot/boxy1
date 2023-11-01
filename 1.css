@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(106, 184, 184);
+}
+
+.whereabouts {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.whereabouts .ipad {
+    justify-content: space-evenly;
+    display: flex
+}
+
+.ipad .effects {
+    background: black;
+    width: 500px;
+    height: 350px;
+    padding: 30px;
+    margin: 100px;
+    border-radius: 25px;
+    transition: 0.75s;
+}
+
+.effects:hover {
+    background-color: white;
+    transition: 0.75s;
+}
